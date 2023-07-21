@@ -17,15 +17,15 @@ export class UsersController {
         private authService: AuthService) {}
 
 
-        @Get('/colors/:color')
-        setColor(@Param('color') color: string, @Session() session: any ) {
-            session.color = color;
-        }
+        // @Get('/colors/:color')
+        // setColor(@Param('color') color: string, @Session() session: any ) {
+        //     session.color = color;
+        // }
 
-        @Get('/colors')
-        getColor(@Session() session: any) {
-            return session.color;
-        }
+        // @Get('/colors')
+        // getColor(@Session() session: any) {
+        //     return session.color;
+        // }
 
 
         // @Get('/whoami')
